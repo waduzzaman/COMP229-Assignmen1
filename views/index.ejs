@@ -10,9 +10,9 @@
 
 <!-- Nav Bar Section -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">COMP-229</a>
+    <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,10 +20,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="/"><i class="fas fa-home fa-lg"></i>Home</a>
+          <a class="nav-link" href="/"><i class="fas fa-home fa-lg"></i>Home Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about"> <i class="fas fa-user-check fa-lg"></i> About</a>
+          <a class="nav-link" href="/about"> <i class="fas fa-user-check fa-lg"></i>About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/projects"><i class="fas fa-info fa-lg"></i>Projects</a>
@@ -32,7 +32,7 @@
           <a class="nav-link" href="/services"> <i class="fas fa-map fa-lg"></i>Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact"><i class="fas fa-phone fa-lg"></i>Contact</a>
+          <a class="nav-link" href="/contact"><i class="fas fa-phone fa-lg"></i>Contact Me</a>
         </li>
       </ul>
     </div>
@@ -41,11 +41,22 @@
 <!-- Nav Bar Section -->
 
 
+<div class="container">
+  <h1>
+    <%= title %>
+  </h1>
+  <p>Welcome to <%= title %>
+  </p>
+</div>
 
+<!-- Bottom section -->
+<nav class="navbar fixed-bottom navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Copyright &copy; 2021 - Md Mahbub E Waduzzaman </a>
+  </div>
+</nav>
+<!-- Bottom section -->
 
-    <h1><%= title %></h1>
-    <p>Welcome to COMP229 <%= title %></p>
-    
 <!--Javascrpit section -->
 
 <script src="./scripts/app.js"></script>

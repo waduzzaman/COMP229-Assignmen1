@@ -20,5 +20,8 @@ router.get('/services', function (req, res, next) {
 router.get('/contact', function (req, res, next) {
     res.render('index', { title: 'Contact Me' });
 });
+router.get('/contact', function (req, res, next) {
+    res.render('index', { title: 'Contact Me' });
+});
 exports.default = router;
 //# sourceMappingURL=index.js.map

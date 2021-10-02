@@ -24,6 +24,10 @@ router.get('/contact', function (req: express.Request, res: express.Response, ne
   res.render('index', { title: 'Contact Me' });
 });
 
+router.get('/contact', function (req: express.Request, res: express.Response, next: express.NextFunction) {
+  res.render('index', { title: 'Contact Me' });
+});
+
 
 
 export default router;
